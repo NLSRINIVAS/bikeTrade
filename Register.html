@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>E-commerce | Register</title>
+    </head>
+    <body>
+        <nav class="nav nav_top">
+            <div class="logo">
+              <a href="index.html"><img src="1Stoplogo1.png" width="100"></a>
+            </div>
+            <div class="nav_side">
+                <a href="about.html">About</a>
+                <a href="service.html">Services</a>
+                <a href="blog.html">Blogs</a>
+                <a href="contact.html">Contact</a>
+                <a href="Register.html">Login/Register</a>
+            </div>
+       </nav>
+
+
+       <div class="register">
+         <div class="register_login">
+        <form method="POST" name="register-form">          
+            <div class="title">Welcome</div>
+            <div class="subtitle">Let's create your account</div>
+
+            <div class="reg_a">
+                <label for="Name" class="form-label">FULL NAME</label>
+                <input type="text" class="form-control" id="username" name="name" placeholder=" " required>
+                <span id="errorname" style="color: red;"></span>
+            </div>
+            <div class="reg_b">
+                <label for="Email1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" name="email" placeholder=" "required>
+                <span id="errormail" style="color: red;">
+                <div id="emailHelp" class="form-text" >We'll never share your email with anyone else.</div>
+            </div>
+            <div class="reg_c">
+                <label for="Number" class="form-label">PHONE NUMBER</label>
+                <input type="number" class="form-control" id="Number" name="phone_no" placeholder=" ">
+                <span id="errornumber" style="color: red;"></span>
+            </div> 
+            <div class="reg_d">
+                <label for="Password1" class="form-label" >Password</label>
+                <input type="password" class="form-control" id="Password1" name="password" placeholder=" " required>
+                <span id="errorpass_a" style="color: red;"></span>
+            
+                <label for="Password2" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="Password2" name="cpassword" placeholder=" "required>
+                <span id="errorpass_b" style="color: red;"></span>
+            </div>
+            <br>
+              <div class="reg_e">
+                <input type="checkbox" class="form-check-input" id="Check1" required>
+                <label class="form-check-label" for="Check1">I Agree for T&C</label>
+            </div>
+            <br>
+
+              <button type="submit"  name="submit" >Register</button>
+              <button type="reset"  >Reset</button>
+              <br>
+              <br>
+
+              Already Registered? <a href="login.html" target="_blank">Login</a>
+            
+        
+        </form>
+    </div>
+        </div>
+       <div class="feed">
+        <h2>Write a Review </h2>
+        <div class="feed_form">
+            <form name="submit-googlesheet" method="post">
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="email" name="Email" placeholder="Email ID"><br>
+                <input type="number" name="Number" placeholder="Contact Number"><br>
+                <textarea rows="5" cols="7" name="Review" placeholder="Write your Review"></textarea><br>
+                <button type="submit">Submit</button>
+                
+            </form>
+        </div>
+    </div>     
+       <footer>
+        <div class="footer_logo">
+            <a href="index.html"><img src="1Stoplogo1.png" width="100"></a>
+          </div>
+          <div class="pages">
+              <h3>Pages</h3>
+            <a href="about.html">About</a>|
+            <a href="service.html">Services</a>|
+            <a href="blog.html">Blogs</a>|
+            <a href="Register.html">Login</a>|
+            <a href="Register.html">Sign Up</a>|
+        </div>
+        <div class="Documents">
+            <h3>Documents</h3>
+            <a href="">Privacy Policy</a>|
+            <a href="">Terms of Use</a>|
+            <a href="">Return Policy</a>|
+        </div>
+        <div class="social">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/1Stopai-102490171820303" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>|
+            <a href="https://in.linkedin.com/company/1stop-ai" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>|
+            <a href="https://www.instagram.com/1stop.ai" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>|
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <a href="https://api.WhatsApp.com/send?phone=+919876543210" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>|
+            <a href="tel: +919876543210"target="_blank"><i class="fa fa-phone" aria-hidden="true"></i></a>|
+            <a href="mailto: support@1stop.ai"target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        </div>
+        <hr style="color: white;">
+        <p>Cpoyright &copy; 2022 SRINIVAS. All rights reserved</p>
+    </footer>
+
+
+    <script type="text/javascript">
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbwLOKIDcPCumRPFf1-iLxna7hohk7HIr792ymqiKRk8FZoPnebuqeWsfT72MR0TOLs8/exec'
+        const form = document.forms['submit-googlesheet']
+     
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => alert(
+                    "Thanks you, will get back to you soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+     
+   
+
+const regURL =
+            'https://script.google.com/macros/s/AKfycbxZI45Uo_PsGhNFbniZNGCkZrVvT8d6_sa_-F1j_0ud8lgQogRuiRAbjHLmydLVOUdz8Q/exec'
+        const rform = document.forms['register-form']
+     
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(regURL, {
+                    method: 'POST',
+                    body: new FormData(rform)
+                })
+                .then(response => alert(
+                    "Thanks you, will get back to you soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+
+
+
+        function validation(){
+            var username = document.getElementById('username').value;
+            var Email = document.getElementById('Email').value;
+            var Number = document.getElementById('Number').value;
+            var Password_a = document.getElementById('Password1').value;
+            var Password_b = document.getElementById('Password2').value;
+    
+            var usercheck =  /^[A-Za-z]{3,30}$/;
+            var emailcheck = /^[A-Za-z_0-9.]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/;
+            var numbercheck = /^[6789][0-9]{9}$/;
+            var passcheck_a = /^[A-Za-z_0-9.@!#$%^&*]{8,20} $/;
+            var passcheck_b = /^[A-Za-z_0-9.@!#$%^&*]{8,20} $/;
+
+            if (usercheck.test(username)){
+                document.getElementById('errorname').innerHTML="";
+            }
+            else{
+                document.getElementById('errorname').innerHTML="**invalid";
+                return false;
+            }
+    
+            if (emailcheck.test(Email)){
+                document.getElementById('erroremail').innerHTML="";
+            }
+            else{
+                document.getElementById('errormail').innerHTML="**Invalid Email";
+                return false;
+            }
+    
+            if (numbercheck.test(Number)){
+                document.getElementById('errornumber').innerHTML="";
+            }
+            else{
+                document.getElementById('errornumber').innerHTML="**invalid number";
+                return false;
+            }
+            if (passcheck_a.test(Password_a)){
+                document.getElementById('errorpass_a').innerHTML="";
+            }
+            else{
+                document.getElementById('errorpass_a').innerHTML="**invalid password";
+                return false;
+            }  
+             if (passcheck_a.test(Password_b)){
+                document.getElementById('errorpass_b').innerHTML="";
+            }
+            else{
+                document.getElementById('errorpass_b').innerHTML="**invalid password";
+                return false;
+            }
+            if (Password_a==Password_b){
+                document.getElementById('errorpass_a').innerHTML="";
+            }
+            else{
+                document.getElementById('errorpass_a').innerHTML="**invalid password";
+                return false;
+            }
+
+        }
+    </script>
+</body>
+</html>
